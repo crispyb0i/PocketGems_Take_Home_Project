@@ -1,0 +1,201 @@
+.back {
+  height: 7vh;
+  margin-top: 2vh;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 5vh;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.col {
+  height:15vh;
+  border: .4vh solid black;
+  background: url("../images/peach.jpeg") 200%;
+  position: relative;
+}
+
+.col > p {
+  position:absolute;
+  right:0;
+  top:0;
+  background-color:gray;
+  width: 5vh;
+  font-size: 3vh;
+  color: white;
+  text-align: center;
+}
+
+.discount {
+  position: absolute;
+  height: 40%;
+}
+
+.home_nav {
+  margin-top: 5%;
+}
+
+.icon {
+  height: 12vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+
+.image {
+  height: 100%;
+  border-style: inset;
+  position: relative;
+  background: url("../images/wood.jpg");
+}
+
+.image:nth-child(4) {
+  -webkit-filter: grayscale(90%);
+  filter: grayscale(100%);
+}
+
+.lock {
+  position: absolute;
+  height: 50%;
+  margin-top: 28%;
+  margin-left: 3%;
+}
+
+.main_img {
+  height: 40vh;
+}
+
+.main_page_icons {
+  height: 100%;
+  max-width: 100%;
+  overflow-x: scroll;
+  white-space: nowrap;
+  margin-top: 1vh;
+  margin-left: 1vh;
+  margin-bottom: 5vh;
+  border: .4vh solid black;
+}
+
+.maintenance {
+  height: 60vh;
+  display: block;
+  margin-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.maintenance_font {
+  font-size: 300%;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-backdrop {
+  z-index: auto;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 2vh;
+    border: .4vh solid #888;
+    width: 100%; /* Could be more or less, depending on screen size */
+}
+.modal-footer {
+  height: 90%;
+}
+
+.modal-header {
+  text-align: center;
+  font-size: 6vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.modal-image {
+  height: 35vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-item {
+  border: 2% solid gray;
+}
+
+.page2 {
+  display: none;
+}
+
+.pagination {
+  display: inline-block;
+  margin-top: 3%;
+  margin-left: -2%;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 2vh 4vh;
+  text-decoration: none;
+  border: .4vh solid #ddd;
+  font-size: 3vh;
+}
+
+.pagination2 {
+  display: none;
+}
+
+.rewards_title {
+  font-size: 5vh;
+  text-align: center;
+  margin-top: -1vh;
+  margin-left: 23%;
+  margin-right: 23%;
+  font-family:'Roboto', sans-serif;
+}
+
+body {
+    background:url("../images/day.png") no-repeat 100% 80% fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 3%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10vh;
+}
+
+h2 {
+  text-align: center;
+  font-size: 5vh;
+  font-family: 'Roboto', sans-serif;
+  color: orange;
+}
