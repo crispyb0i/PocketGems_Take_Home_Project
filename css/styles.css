@@ -77,13 +77,14 @@
 
 .main_page_icons {
   height: 100%;
-  max-width: 100%;
+  width: 80%;
   overflow-x: scroll;
   white-space: nowrap;
   margin-top: 1vh;
   margin-left: 1vh;
   margin-bottom: 5vh;
   border: .4vh solid black;
+  margin: auto;
 }
 
 .maintenance {
