@@ -15,7 +15,7 @@ $(function() {
       }
     })
   });
-  
+
   // Modal Toggle Function
   $('.img-modal').click(function(e){
     $('.modal-image').attr('src',$(this).attr("src"));
